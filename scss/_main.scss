@@ -1,0 +1,29 @@
+main {
+    h1 .title-bio {
+        color: $font-color;
+        text-align: left;
+        margin: 20px 20px 20px;
+    }
+
+    p .p-bio {
+        color: $font-color;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: 300;
+
+        a .adjunto-bio {
+            color: $link-color;
+        }
+    }
+
+    h2 .sub-bio {
+        color: $font-color;
+        margin: 20px 20px 20px;
+    }
+
+    div .img-bio {
+        text-align: center;
+        width: 600;
+        height: 400;
+    }
+}

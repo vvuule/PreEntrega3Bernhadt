@@ -1,0 +1,21 @@
+section .container {
+    h2 .encabezado {
+        text-align: center;
+        color: $font-color;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    div .row {
+        div .col-xs-12 .col-sm-12 .col-md-6 .col-lg-6 .col-xl-3 .col-xxl-3 {
+            div .card {
+                div .card {
+                    .scale:hover{                        
+                        width: auto;
+                        transform:scale(2, 2);}
+                        }
+                    }
+                }
+            }
+        }
+    

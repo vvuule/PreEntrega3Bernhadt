@@ -1,0 +1,39 @@
+header {
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    height: 70px;
+    background-color: $bg-black;
+
+    .logo {
+        cursor: pointer;
+        display: flex;
+        height: 100px;
+    }
+
+    nav {
+        ul {
+            list-style: none;
+            text-decoration: none;
+            display: inline-block;
+            color:$link-color;
+            font-size: large;
+            font-weight: 400;
+
+            .nav-link a {
+                display: inline-block;
+                padding: 0px 20px;
+                text-decoration: none;
+                display: inline-block;
+                color: $link-color;
+                transition: all 0.3s ease 0s;
+            }
+
+            .nav-link a:hover {
+                color: $font-color;
+            }
+        }
+    }
+}

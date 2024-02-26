@@ -1,0 +1,367 @@
+* {
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mate-regular {
+    font-family: "Mate", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+ .mate-regular-italic {
+    font-family: "Mate", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+.cantata-one-regular {
+    font-family: "Cantata One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    font-family: "Mate", serif;
+    margin: 0;
+    min-height: 100vh;
+    background-color: black;
+}
+
+/*INDEX/INICIO*/
+header{
+    justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    height: 70px;
+    background-color: black;
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    height: 100px;
+}
+.nav-link{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: firebrick;
+    font-size: large;
+    font-weight: 400;
+}
+.nav-link a{
+    display: inline-block;
+    padding: 0px 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: firebrick;
+    transition: all 0.3s ease 0s;
+}
+.nav-link a:hover{
+    color: white;
+}
+/*carrusel*/
+.carousel-item {
+    height: fit-content;
+    width: fit-content;
+    justify-items: center;
+}
+h1{
+    color:white;
+    text-align: center;
+    margin-top: 20px;
+}
+.carrusel{
+    margin-top: 80px;
+}
+/*BIOGRAFIA*/
+.title-bio{
+    color: white;
+    text-align: left;
+    margin: 20px 20px 20px;
+}
+.p-bio{
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 300;
+}
+.adjunto-bio{
+    color: firebrick;
+}
+.sub-bio{
+    color: white;
+    margin: 20px 20px 20px; 
+}
+.img-bio{
+    text-align: center;
+}
+
+/*DISCOGRAFIA*/
+.title-discografia{
+    text-align: center;
+    color: white;
+    margin: 20px 20px 20px;
+}
+/*GALERIA*/
+.title_galeria {
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin-top:20px;
+   margin-bottom: 10px;
+}
+
+/*SHOWS*/
+.encabezado{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.card{
+    background-color:dimgrey
+}
+.card-title{
+    text-align: center;
+    color: white;
+}
+.card-title a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.card .btn-primary{
+    background-color: firebrick;
+    border-color: red;
+    display: block;
+    font-family: "Cantata One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.flyer{
+    width: auto;
+    height: auto;
+}
+/*FOOTER*/
+footer{
+    background-color: black;
+    margin-top: 20px;
+}
+.footer-container{
+    width: 100%;
+    padding: 20px 30px 20px;
+}
+.icon-redes{
+    display: flex;
+    justify-content: center;
+}
+.icon-redes a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50px;
+}
+.icon-redes a i{
+    font-size: 2.5em;
+    color: black;
+    opacity: 0.9;
+}
+.icon-redes a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.icon-redes a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.cta{
+    padding: 9px 25px;
+    background-color:white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+@media screen and (min-width:1024px) and (max-width:2000px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        height: 70px;
+        background-color: black;
+    }
+    .logo{
+        cursor: pointer;
+        display: flex;
+        height: 100px;
+    }
+    .img-bio{
+        width:600;
+        height:400;
+    }
+}
+@media screen and (min-width:760px) and (max-width:1023px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        height: 70px;
+        background-color: black;
+    }
+    .logo{
+        cursor: pointer;
+        display: flex;
+        height: 80px;
+    }
+    .nav-link{
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+        font-size: large;
+        font-weight: 200;
+    }
+    .nav-link a{
+        display: inline-block;
+        padding: 0px 10px;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+    }
+    .img-bio{
+        width:600;
+        height:400;
+    }
+    .footer-container{
+        width: 100%;
+        padding: 20px 30px 20px;
+    }
+}
+@media screen and (min-width:800px) and (max-width:900px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        height: 70px;
+        background-color: black;
+    }
+    .logo{
+        cursor: pointer;
+        display: flex;
+        height: 70px;
+    }
+    .nav-link{
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+        font-size:medium;
+        font-weight: 200;
+    }
+    .nav-link a{
+        display: inline-block;
+        padding: 0px 10px;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+    }
+    .img-bio{
+        width:600;
+        height:400;
+    }
+    .footer-container{
+        width: 100%;
+        padding: 20px 30px 20px;
+    }
+
+}
+@media screen and (min-width:760px) and (max-width:800){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+        height: 70px;
+        background-color: black;
+    }
+    .logo{
+        cursor: pointer;
+        display: flex;
+        height: 40px;
+    }
+    .nav-link{
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+        font-size: small;
+        font-weight: 200;
+    }
+    .nav-link a{
+        display: wrap;
+        padding: 0px 5px;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+    }
+    .container-{
+        padding-top: 30px;
+    }
+    .img-bio{
+        width:600;
+        height:400;
+    }
+    .footer-container{
+        width: 100%;
+        padding: 20px 30px 20px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:760px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+        height: 70px;
+        background-color: black;
+    }
+    .logo .row{
+        grid-row: 1;
+        cursor: pointer;
+        display: flex;
+        height: 6px;
+    }
+    .nav-link{
+        list-style: none;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+        font-size: smaller;
+        font-weight: 200;
+    }
+    .nav-link a{
+        display: wrap;
+        padding: 0px 5px;
+        text-decoration: none;
+        display: inline-block;
+        color: firebrick;
+    }
+    .container-{
+        padding-top: 30px;
+    }
+    .img-bio{
+        width:600;
+        height:400;
+    }
+    .footer-container{
+        width: 100%;
+        padding: 20px 30px 20px;
+    }
+}

@@ -1,0 +1,39 @@
+footer {
+    background-color: $bg-black;
+    margin-top: 20px;
+
+    div .footer-container {
+        width: 100%;
+        padding: 20px 30px 20px;
+
+        div .icon-redes {
+            display: flex;
+            justify-content: center;
+
+            .icon-redes a {
+                text-decoration: none;
+                padding: 10px;
+                background-color: $font-color;
+                margin: 10px;
+                border-radius: 50px;
+
+                .icon-redes a i {
+                    font-size: 2.5em;
+                    color: $bg-black;
+                    opacity: 0.9;
+
+                    .icon-redes a:hover {
+                        background-color: $redes-hover;
+                        transition: 0.5s;
+
+                        .icon-redes a:hover i {
+                            color: $font-color;
+                            transition: 0.5s;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

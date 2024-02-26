@@ -1,0 +1,16 @@
+.btn.btn-primary{
+    background-color: $link-color;
+    border-color: $border-color;
+    display: block;
+    font-family: "Cantata One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cta{
+    padding: 9px 25px;
+    background-color: $font-color;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
